@@ -1,0 +1,14 @@
+   {
+     "name": "fatal-exchange-bitgo",
+     "version": "1.0.0",
+     "description": "BitGo Express service for Fatal Exchange",
+     "main": "server.js",
+     "type": "module",
+     "scripts": {
+       "start": "node server.js"
+     },
+     "dependencies": {
+       "@bitgo/express": "latest",
+       "express": "^4.18.2"
+     }
+   }
